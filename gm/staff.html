@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+</head>
+<body>
+    <button data-toggle="collapse" data-target="#demo">Show Details</button>
+   
+  
+<div id="demo" class="collapse">
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">S.NO</th>
+            <th scope="col">EMPLOYEE NAME</th>
+            <th scope="col">FATHER NAME</th>
+            <th scope="col">MOTHER NAME</th>
+            <th scope="col">PHONE NO</th>
+            <th scope="col">ADDRESS</th>
+            
+            
+            
+
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>GULSHAN KUMAR</td>
+            <td>ASHOK KUMAR</td>
+            <td>SUDHA DEVI</td>
+            <td>6205838206</td>
+            <td>RAIPUR</td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>PAWAN KUMAR</td>
+            <td>RANJEET SINGH</td>
+            <td>SEEMA DEVI</td>
+            <td>8809381296</td>
+            <td>NAWADA</td>
+
+          </tr>
+          <tr>
+          
+            <th scope="row">3</th>
+            <td>PAWAN KUMAR</td>
+            <td>RANJEET SINGH</td>
+            <td>SEEMA DEVI</td>
+            <td>8809381296</td>
+            <td>NAWADA</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+
+
+
+  
+
+<script>
+    function myFunction() {
+      // Declare variables
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMenu");
+      li = ul.getElementsByTagName("li");
+    }
+</script>   
+
+
+
+</body>
+</html>

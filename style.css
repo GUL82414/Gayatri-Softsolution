@@ -1,0 +1,134 @@
+
+ .navbar-brand {
+    
+    font: icon;
+    
+  }
+  section .h9{
+   color: rgb(255, 2, 2);
+   margin: 110;
+ }
+ .gyan-title-desc {
+  color: #606060;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: left;
+}
+.text-3xl {
+  font-size: 38px;
+}
+.qwe{
+  color: red;
+  font-size: 25px;
+  
+
+}
+.mg{
+  text-align: center;
+  font-size: 30px;
+  font-family: -webkit-pictograph;
+}
+.w3-dropdown-hover{
+  font-family: -webkit-pictograph;
+  border: 1px solid purple;
+  margin: 2px;
+}
+
+#cont{
+  height: 100px;
+  font-size: 25px;
+  background-color: yellowgreen;
+  
+}
+.logo {
+  background-color:greenyellow;
+  position: relative;
+  left: -8px;
+  text-align: left;
+  padding: 15px 0;
+  border: 2px dotted yellow;
+  border-radius: 30px;
+  font-size: 21px;
+  outline: none;
+}
+.logo :hover{
+  
+background-color: yellow;
+}
+.sld{
+  font-size: 30px;
+}
+.contc1{
+  position: relative;
+    height: 56px;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* align-self: center; */
+    /* text-align: center; */
+    float: right;
+    right: 142px;
+    /* left: -688px; */
+}
+.con2{
+  height: 56px;
+}
+.hed1{
+  background-color: yellow;
+}
+.text-a{
+  background-color: azure;
+}
+.text-b{
+  background-color: azure;
+}
+.text-c{
+background-color: azure;
+}
+.mq{
+  color:black;
+  font-size: 30px;
+}
+.abt{
+  
+    color: rgb(20, 20, 20);
+  
+}
+.abt1{
+  color: black;
+}
+#gd1{
+  font-size: 25px;
+    color: chartreuse;
+    background-color: brown;
+    width: fit-content;
+    padding: 4px;
+    position: relative;
+    top: -120px;
+}
+#gd2{
+  font-size: 20px;
+    float: right;
+    color: chartreuse;
+    background-color: teal;
+    width: fit-content;
+    padding: 4px;
+    position: relative;
+    top: -162px;
+
+}
+.gd3{
+  font-size: 20px;
+    float: right;
+    color: rgb(238, 255, 0);
+    background-color: rgb(196, 0, 245);
+    width: fit-content;
+    padding: 4px;
+    position: relative;
+    top: -200px;
+
+}
+
+
+.gh{
+  background-color: rgb(236, 240, 231);
+}
